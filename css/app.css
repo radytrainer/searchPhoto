@@ -63,3 +63,18 @@ body {
 span {
     cursor: pointer;
 }
+
+#clearSearch {
+    position: absolute;
+    right: 340px;
+    background: rgb(168, 168, 168);
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    top: 10px;
+}
