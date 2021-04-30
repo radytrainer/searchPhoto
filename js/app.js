@@ -126,6 +126,7 @@ btnSearch.addEventListener('click', searchPhoto);
 
 document.addEventListener('keyup', event => {
     clearSearch.style.display = "";
+    if (event.key === "Enter") searchPhoto();
 });
 // loard key word
 
